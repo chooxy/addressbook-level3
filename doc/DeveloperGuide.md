@@ -80,6 +80,46 @@ Use case ends.
 > 3a1. AddressBook shows an error message <br>
   Use case resumes at step 2
 
+#### Use case: Rename tag
+
+**MSS**
+
+1. User requests to list tags
+2. AddressBook shows a list of tags
+3. User requests to rename a specific tag in the list
+4. AddressBook asks for new name
+5. User provides new name
+6. AddressBook prompts user to confirm changing specific tag from old name to new name
+7. User confirms
+8. AddressBook renames specific tag from old name to new name
+Use case ends.
+
+**Extensions**
+
+2a. The list is empty
+
+> Use case ends
+
+3a. The given index is invalid
+
+> 3a1. AddressBook shows an error message
+  Use case resumes at step 2
+  
+5a. User decides not to change the selected tag
+
+> 5a1. User enters command to cancel instead of new name
+  Use case resumes at step 2
+  
+6a. User typed new name wrongly
+
+> 6a1. User rejects the change
+  Use case resumes at step 4
+  
+8a. User decides to undo the change
+
+> 8a1. User enters command to undo the change
+  Use case ends
+  
 ## Appendix C : Non Functional Requirements
 
 1. Should work on any [mainstream OS](#mainstream-os) as long as it has Java 8 or higher installed.
