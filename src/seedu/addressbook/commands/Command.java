@@ -46,7 +46,7 @@ public abstract class Command {
      * 
      * @return true for command types that mutate data
      */
-    public abstract CommandResult isMutating();
+    public abstract boolean isMutating();
     
     /**
      * Supplies the data the command will operate on.
