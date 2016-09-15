@@ -45,8 +45,14 @@ Priority | As a ... | I want to ... | So that I can...
 `* * *` | user | add a new person |
 `* * *` | user | delete a person | remove entries that I no longer need
 `* * *` | user | find a person by name | locate details of persons without having to go through the entire list
+`* * *` | user | find a person by contact details | find out who contacted me without leaving their name
+`* * *` | user | edit a person's contact details | update contact details without having to delete and add from scratch
 `* *` | user | hide [private contact details](#private-contact-detail) by default | minimize chance of someone else seeing them by accident
+`* *` | user | see a list of recently added people | find a new acquaintance whose name I may have forgotten
+`* *` | lazy user | alternative, shorter command words | type less 
+`* *` | user| tag people | search for a group of people
 `*` | user with many persons in the address book | sort persons by name | locate a person easily
+`*` | user with bad memory | see a list of most most searched names | easily find the same people again
 
 
 ## Appendix B : Use Cases
