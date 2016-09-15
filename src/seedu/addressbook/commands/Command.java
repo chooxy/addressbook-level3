@@ -42,6 +42,13 @@ public abstract class Command {
     public abstract CommandResult execute();
 
     /**
+     * Acts as a flag for saving when data is mutated
+     * 
+     * @return true for command types that mutate data
+     */
+    public abstract CommandResult isMutating();
+    
+    /**
      * Supplies the data the command will operate on.
      */
     public void setData(AddressBook addressBook, List<? extends ReadOnlyPerson> relevantPersons) {
