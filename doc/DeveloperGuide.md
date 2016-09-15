@@ -53,7 +53,7 @@ Priority | As a ... | I want to ... | So that I can...
 `* *` | user| tag people | search for a group of people
 `*` | user with many persons in the address book | sort persons by name | locate a person easily
 `*` | user with bad memory | see a list of most most searched names | easily find the same people again
-
+`*` | user | export a list of people in | refer to a specific list of people's details without having to start up the App
 
 ## Appendix B : Use Cases
 
