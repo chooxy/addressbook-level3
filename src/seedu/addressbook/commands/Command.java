@@ -38,8 +38,10 @@ public abstract class Command {
 
     /**
      * Executes the command and returns the result.
+     * 
+     * @throws Exception 
      */
-    public abstract CommandResult execute();
+    public abstract CommandResult execute() throws Exception;
 
     /**
      * Acts as a flag for saving when data is mutated
